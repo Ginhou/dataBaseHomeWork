@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <!-- from login css  -->
+    <link rel="stylesheet" type="text/css" href="new/css/util.css">
+	<link rel="stylesheet" type="text/css" href="new/css/main.css">
+</head>
+<body>
+
+    <div class="limiter">
+
+        <!-- <h1>Sign up</h1> -->
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <form action="/signup" method="post" class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+                    <span class="login100-form-title">Sign Up</span>
+                
+                    <div class="wrap-input100 validate-input m-b-16 " data-validate="Please enter username" >
+                        <input type="text" name="username" class = "input100" id="name" placeholder="Username"/>
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-16 " data-validate="Please enter Email" >
+                        <input type="email" name="email" id="email" class = "input100" placeholder="Email" />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-16 " data-validate="Please enter password" >
+                        <input type="password" name="password" id="pass" class = "input100" placeholder="password" />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="text-right p-t-13 p-b-23">
+                        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="txt2">Terms of service</a></label>
+                    </div>
+
+                   <div class="container-login100-form-btn ">
+						<button class="login100-form-btn">
+							Create new account
+						</button>
+					</div>
+                </form>
+                
+                <div class="flex-col-c p-t-130 p-b-40">
+                    <p class="tex3">
+                        Already have an account ?<a href="/member" class="loginhere-link txt2"> Log in</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
